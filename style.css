@@ -56,3 +56,44 @@ h4 {
 .related {
   list-style: none;
 }
+.main-header {
+  background-color: #f7f7f7;
+}
+.main-aside {
+  background-color: rgb(176, 176, 176);
+  border-top: 5px #1098ad solid;
+  border-bottom: 5px #1098ad solid;
+  /* border-left: none;
+  border-right: none; */
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* Misconception: This won't work */
+article p:first-child {
+  color: red;
+}
+
+/* li:nth-child(even) {
+  color: pink;
+} */
+a:visited {
+  color: #1098ad;
+}
+a {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #a37564;
+  text-decoration: underline #a37564;
+  font-weight: bold;
+}
+a:active {
+  background-color: #f7f7f7;
+  font-style: italic;
+}
